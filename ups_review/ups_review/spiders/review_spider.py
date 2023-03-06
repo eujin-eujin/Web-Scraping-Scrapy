@@ -1,8 +1,6 @@
 import scrapy
 from bs4 import BeautifulSoup
-from scrapy.exporters import CsvItemExporter
 from scrapy import  Request
-from ..items import ReviewItem
 import re
 class review_spider(scrapy.Spider):
 
